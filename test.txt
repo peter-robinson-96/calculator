@@ -1,0 +1,14 @@
+Reverse Pseudocoding a sample solution:
+
+JS:
+
+declare 2 global variables: one array and one number.
+
+create a function which stores the value passed by the last button clicked as a string, then tests what the value of the button was.
+if the button was a number (or a decimal point), it adds it to a temp string (which displays in the calcultor screen).
+else if the button was a character other than =, add the temp string to the global array, add symbol and clear temp. 
+
+etc etc, with a few tweaks here and there (the multiplication symbol on the button is wrong for js, so it had to be converted, likewise with division).
+
+basically: listening for the event of button clicks, when it hears a button click, executes a function which stores the numbers being typed as a string, and then when an operator is pressed, it stores the current temp string in an array while it waits for the next temp string. Then, it expects an equals buttton press, which it then takes as the cue to print the result of the operations on the screen.
+
