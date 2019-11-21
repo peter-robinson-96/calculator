@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;;
+}
+
+.case {
+  background-color: darkgrey;
+}
+
+.display-screen {
+  background-color: darkkhaki;
+}
+
+.button {
+  background-color: deepskyblue;
+}
+
+.button :click {
+  background-color: black;
+  color: white;
+}
+
+.button :hover {
+  background-color: dodgerblue;
+}
+
+.clear-all {
+  background-color: firebrick;
+  color: yellow;
+}
+
+.backspace {
+  background-color: orange;
+}
+
+.equals {
+  background-color: green;
+  color: white;
+}
